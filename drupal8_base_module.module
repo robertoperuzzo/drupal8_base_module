@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Code for my module.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function drupal8_base_module_menu() {
+
+  $items['admin/config/system/my-module'] = array(
+    'title' => 'My module',
+    'description' => 'This is my module overview page.',
+    'route_name' => 'drupal8_base_module.overview',
+  );
+
+  return $items;
+}
+

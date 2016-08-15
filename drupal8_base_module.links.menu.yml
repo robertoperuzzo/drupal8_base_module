@@ -1,0 +1,6 @@
+drupal8_base_module.overview:
+  title: 'My module name'
+  parent: system.admin_config_system
+  description: 'This is my module overview page.'
+  route_name: drupal8_base_module.overview
+  weight: -20

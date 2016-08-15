@@ -1,0 +1,7 @@
+drupal8_base_module.overview:
+  path: '/admin/config/system/my-module'
+  defaults:
+    _controller: '\Drupal\drupal8_base_module\Controller\BaseModuleController::adminOverview'
+    _title: 'My module'
+  requirements:
+    _permission: 'administer site configuration'
