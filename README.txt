@@ -67,3 +67,6 @@ REFERENCES
    to Drupal 8 APIs (https://www.drupal.org/node/2118147)
  * PSR-4 namespaces and autoloading in Drupal 8
    (https://www.drupal.org/node/2156625)
+ * Building modules with Drupal 8
+   (https://docs.acquia.com/articles/building-drupal-8-modules)
+ * README Template (https://www.drupal.org/node/1800686)
